@@ -1,9 +1,8 @@
 class APIResponse {
-    constructor(data, message, statusCode) {
-        this.data = data;
+    constructor(data, message) {
         this.message = message;
-        this.statusCode = statusCode;
         this.success = true;
+        this.data = data;
     }
 }
 
