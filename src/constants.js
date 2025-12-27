@@ -1,1 +1,1 @@
-export const DB_NAME = "Node Back"
+export const DB_NAME = "node-back"
